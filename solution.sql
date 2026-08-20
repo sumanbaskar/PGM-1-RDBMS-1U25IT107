@@ -8,4 +8,4 @@ CREATE TABLE Department (
     HOD VARCHAR(20) NOT NULL
 );
 
-DESCRIBE Department;
+DESC Department;
