@@ -1,8 +1,11 @@
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
+CREATE DATABASE universitysDB;
+
+USE universitysDB;
+
 CREATE TABLE Department (
-DepartmentID NUMBER(5) PRIMARY KEY,
-DepartmentName VARCHAR(20),
-HOD VARCHAR(20) 
+    DepartmentID NUMERIC(5) PRIMARY KEY,
+    DepartmentName VARCHAR(20) NOT NULL,
+    HOD VARCHAR(20) NOT NULL
 );
-desc Department;
+
+DESCRIBE Department;
